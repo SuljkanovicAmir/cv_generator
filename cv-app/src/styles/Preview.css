@@ -1,0 +1,118 @@
+* {
+    word-wrap: break-word;
+}
+
+.previewContainer > h1  {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.previewContainer::-webkit-scrollbar,
+.mainInfo > div::-webkit-scrollbar {
+    display: none;
+  }
+
+.cvPreview {
+    border-radius: 10px;
+    min-height: 1000px;
+    background-color: rgb(238, 237, 237);
+    overflow: hidden;
+    position: relative;
+    height: 50%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cvPreview header {
+    min-height: 10%;
+    max-height: 25%;
+    background-color:#ffc27326;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+.bodyPreview {
+    display: flex;
+    justify-content: space-between;
+    min-height: 90%;
+    position: absolute;
+    width: 100%;
+}
+
+.mainInfo {
+    width: 70%;
+    padding: 20px 15px;
+}
+
+.mainInfo hr,
+.mainInfo > div  {
+    margin-bottom: 15px;
+}
+
+.mainInfo > div  {
+    max-height: 300px;
+    word-wrap: break-word;
+    overflow: auto;
+}
+
+.mainInfo h5 {
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.experience,
+.eduExperience {
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+    color: rgb(1, 23, 43);
+    gap: 15%;
+}
+
+.eduExperience h5 {
+    margin-bottom: 7px;
+    display: inline-block;
+}
+.experience h5 {
+    margin-bottom: 7px;
+}
+
+.experience p {
+   margin-left: 3px;
+   display: inline-block;
+}
+
+.eduExperience p {
+    margin-left: 3px;
+}
+
+
+/* ______________________ 
+
+    Personal sidebar below 
+
+    ____________________*/
+
+
+.personalSidebar {
+    width: 27%;
+    background-color: rgba(197, 193, 193, 0.671);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.personalSidebar img {
+    width: 100%;
+    height: auto;
+}
+
+.personalSidebar h3 {
+    margin-top: 15px;
+}
+
